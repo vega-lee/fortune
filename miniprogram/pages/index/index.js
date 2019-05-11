@@ -46,7 +46,11 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-    
+    wx.onAccelerometerChange(function (res) {
+      console.log(res.x)
+      console.log(res.y)
+      console.log(res.z)
+    })
   },
 
   /**
