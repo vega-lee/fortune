@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/index/index",
     "pages/demo/index/index",
     "pages/demo/userConsole/userConsole",
     "pages/demo/storageConsole/storageConsole",
@@ -7,8 +8,7 @@
     "pages/demo/addFunction/addFunction",
     "pages/demo/deployFunctions/deployFunctions",
     "pages/demo/chooseLib/chooseLib",
-    "pages/demo/openapi/openapi",
-    "pages/index/index"
+    "pages/demo/openapi/openapi"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
@@ -16,24 +16,6 @@
     "navigationBarBackgroundColor": "#F6F6F6",
     "navigationBarTitleText": "云开发 QuickStart",
     "navigationBarTextStyle": "black"
-  },
-  "tabBar": {
-    "list": [
-      {
-        "pagePath": "pages/index/index",
-        "text": "tab1",
-        "iconPath": "images/my.png",
-        "selectedIconPath": "images/mySelected.png"
-      },
-      {
-        "pagePath": "pages/demo/index/index",
-        "text": "demo",
-        "iconPath": "images/my.png",
-        "selectedIconPath": "images/mySelected.png"
-      }
-    ],
-    "color": "#bfbfbf",
-    "selectedColor": "#1AAD19"
   },
   "sitemapLocation": "sitemap.json"
 }

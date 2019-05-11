@@ -1,4 +1,13 @@
 <!--index.wxml-->
-<view class="container">
-index
+<view class="bodyg">
+  <view wx:if='{{bkFlag}}' class="blackpage"></view>
+  <text class='toptext' decode='true'>Vega灵签&nbsp;&nbsp;心诚则灵</text>
+  <view class="{{qtStyle}}" bindtap='StartShow'>
+    <image class="image1" src="../../images/tong.png" mode="aspectFit"></image>
+  </view>
+  <view class="{{qianStyle}}" wx:if='{{qianFlag}}'>
+    <a href="https://we.xingyunyun.cn/chouqian/guanyin/1">
+      <image src="../../images/qian.png"></image>
+    </a>
+  </view>
 </view>

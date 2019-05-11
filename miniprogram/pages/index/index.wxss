@@ -1,0 +1,178 @@
+@charset "utf-8";@keyframes qianshow {
+    0% {
+        opacity: 0;
+        top: 62%
+    }
+
+    20% {
+        opacity: 1
+    }
+
+    100% {
+        opacity: 1;
+        top: 47%
+    }
+}
+
+@-webkit-keyframes qianshow {
+    0% {
+        opacity: 0;
+        top: 62%
+    }
+
+    20% {
+        opacity: 1
+    }
+
+    100% {
+        opacity: 1;
+        top: 47%
+    }
+}
+@keyframes tongshow {
+  0% {
+    left: 0;
+  }
+
+  12.5% {
+    left: -10%;
+  }
+
+  25% {
+    left: 10%;
+  }
+
+  37.5% {
+    left: -10%;
+  }
+
+  50% {
+    left: 10%;
+  }
+
+  62.5% {
+    left: -10%;
+  }
+
+  75% {
+    left: 10%;
+  }
+
+  87.5% {
+    left: -10%;
+  }
+
+  100% {
+    left: 0;
+  }
+}
+
+@-webkit-keyframes tongshow {
+  0% {
+    left: 0;
+  }
+
+  12.5% {
+    left: -10%;
+  }
+
+  25% {
+    left: 10%;
+  }
+
+  37.5% {
+    left: -10%;
+  }
+
+  50% {
+    left: 10%;
+  }
+
+  62.5% {
+    left: -10%;
+  }
+
+  75% {
+    left: 10%;
+  }
+
+  87.5% {
+    left: -10%;
+  }
+
+  100% {
+    left: 0;
+  }
+}
+
+.bodyg {
+  background: url(https://weimg.xingyunyun.cn/weui/img/cq/doingbg.jpg) no-repeat;
+  background-size: 100% 100%;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+}
+
+.toptext {
+  width: 100%;
+  color: #fec375;
+  text-align: center;
+  position: fixed;
+  padding-top: 2%;
+  font-size: 20px;
+}
+
+.qiantong {
+  width: 100%;
+  height: 30%;
+  position: absolute;
+  top: 62%;
+  z-index: 10;
+  text-align: center;
+}
+
+.tongshow {
+  animation: tongshow 1s;
+  -moz-animation: tongshow 1s;
+  -o-animation: tongshow 1s;
+  -webkit-animation: tongshow 1s;
+  animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+}
+
+.blackpage {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+}
+
+.qian {
+  width: 100%;
+  height: 27%;
+  position: absolute;
+  top: 62%;
+  z-index: 9;
+  text-align: center;
+}
+
+.qian image {
+  width: 31px;
+  height: 219px;
+  display: inline-block;
+}
+.qianshow {
+    animation: qianshow 2s;
+    -moz-animation: qianshow 2s;
+    -o-animation: qianshow 2s;
+    -webkit-animation: qianshow 2s;
+    animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards
+}

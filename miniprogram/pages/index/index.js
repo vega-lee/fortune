@@ -6,9 +6,28 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    qtStyle:'qiantong',
+    bkFlag:false,
+    qianFlag:false,
+    qianStyle: 'qian',
   },
-  
+  StartShow:function (ev){
+    let that = this;
+    that.setData({
+      qtStyle: 'qiantong tongshow'
+    });
+    setTimeout(function(){
+      that.setData({
+        bkFlag: true,
+        qianFlag:true,
+        qianStyle:'qian qianshow'
+      });
+     /*  document.getElementById("blackpage").style.display = "block";
+      document.getElementById("qiantongblack").style.display = "block";
+      document.getElementById("qian").style.display = "block";
+      document.getElementById("qian").className = "qian qianshow"; */
+    }, 1000)
+  },
   /**
    * 生命周期函数--监听页面加载
    */
